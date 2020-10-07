@@ -16,8 +16,6 @@ public class UserService implements IUserService {
 
     private final List<User> Users = new ArrayList<>();
 
-    // private boolean done = false;
-
     @Autowired
     UserService(ILocationService locationService) {
         this.locationService = locationService;
