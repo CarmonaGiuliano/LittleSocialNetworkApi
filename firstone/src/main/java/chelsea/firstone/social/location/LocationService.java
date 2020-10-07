@@ -16,7 +16,6 @@ public class LocationService implements ILocationService {
 
 
     @Override
-    @Bean
     public List<Location> getAllLocations() throws BusinessException {
         try {
 
